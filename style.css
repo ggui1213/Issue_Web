@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.TopBar {
+  padding: 5px;
+  color: white;
+  background-color: black;
+  font-family: Garamond, serif;
+}
+
+.TopBar h2{
+  margin: 20px 25px;
+  font-size: 25px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FAEE54;
+}
+
+#logo{
+  width: 100px; 
+  height: 100px;
+  position:absolute;
+}
+
+.topnav a {
+  position:relative; 
+  left:350px; top:-24px;
+  color: black;
+  text-align: center;
+  padding: 35px 90px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.current {
+  position: static;
+  padding: 13px 100px;
+  display: inline-block;
+  text-align: left;
+  color: black;
+  font-size: 22px;
+  background-color: #FAEE54;
+}
+
+.title_index{
+  display: inline-block;
+  width: 30%;
+  padding-left: 80px;
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+}
+
+.title_img{
+  padding-left: 50px;
+  padding-top: 50px;
+  display: inline-block;
+  width: 60%;
+}
+
+p{
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 30px;
+}
+
+h2{
+  padding-left: 60px;
+  font-size: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.data{
+  width: 100%;
+  padding-left: 30px;
+}
+
+.data div{
+  display: inline-block;
+  width: 30%;
+}
+
+.data h1{
+  text-align: center;
+  font-size: 75px;
+}
+
+h3{
+  padding-left: 60px;
+  font-size: 25px;
+}
+
+ol{
+  padding-left: 120px;
+  font-size: 25px;
+}
+
+ul{
+  padding-left: 70px;
+  font-size: 25px;
+}
+
